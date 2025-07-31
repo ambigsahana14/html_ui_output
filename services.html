@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Infipost Grid Section</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      margin: 0;
+      background-color: #fff;
+    }
+
+    .intro {
+      max-width: 400px;
+      margin-bottom: 40px;
+    }
+
+    .intro h3 {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .intro p {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    .icon-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 40px;
+      row-gap: 100px;
+      text-align: center;
+      margin-bottom: 60px;
+      margin-top: 60px;
+    }
+    /* Add to your <style> section */
+    .icon-item i {
+       color: grey; /* black */
+       font-size: 32px;
+    }
+
+    .icon-item {
+      font-size: 24px;
+      color: #333;
+    }
+
+    .icon-item p {
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Intro Text -->
+  <div class="intro">
+    <h3>Introducing Podcasts</h3>
+    <p>
+      Listen, create, or share on Infipost’s new podcast platform.
+      Modern player, easy discovery, bright orange highlights.
+    </p>
+  </div>
+
+  <!-- Icon Grid -->
+  <div class="icon-grid">
+    <!-- First Row -->
+    <div class="icon-item">
+      <div><i class="fas fa-pen"></i></div>
+      <p>Write Articles</p>
+    </div>
+    <div class="icon-item">
+      <div><i class="fas fa-comment-dots"></i></div>
+      <p>Share Opinions</p>
+    </div>
+    <div class="icon-item">
+      <div><i class="fas fa-lightbulb"></i></div>
+      <p>Explore Ideas</p>
+    </div>
+    <div class="icon-item">
+      <div><i class="fas fa-bolt"></i></div>
+      <p>---</p>
+    </div>
+
+    <!-- Second Row -->
+    <div class="icon-item">
+      <div><i class="fas fa-shield-alt"></i></div>
+      <p>Block</p>
+    </div>
+    <div class="icon-item">
+      <div><i class="fas fa-exclamation-triangle"></i></div>
+      <p>Report</p>
+    </div>
+    <div class="icon-item">
+      <div><i class="fas fa-trash"></i></div>
+      <p>Delete</p>
+    </div>
+    <div class="icon-item">
+      <div><i class="fas fa-lock"></i></div>
+      <p>Privacy</p>
+    </div>
+</div>
+
+</body>
+</html>

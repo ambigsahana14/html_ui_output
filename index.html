@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Infipost Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+  
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 1px;
+      margin: 20px 40px;
+    }
+
+    .square, .circle, .triangle {
+      width: 18px;
+      height: 18px;
+      background-color: black;
+    }
+
+    .circle {
+      border-radius: 50%;
+    }
+
+    .triangle {
+      width: 0;
+      height: 0;
+      border-left: 9px solid transparent;
+      border-right: 9px solid transparent;
+      border-bottom: 18px solid black;
+      background: none;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .buttons button {
+      padding: 6px 14px;
+      border: none;
+      border-radius: 999px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .dark-mode {
+      background: #f0f0f0;
+    }
+
+    .join {
+      background: black;
+      color: white;
+    }
+
+    
+    .hero {
+      text-align: center;
+      margin-top: 8px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+      font-weight:bold;
+      margin-bottom: 0;
+      line-height: 1;
+    }
+
+    .hero p {
+      font-size: 40px;
+      color: #888;
+      margin-top: 0;
+      line-height: 1;
+    
+    }
+
+    .hero-buttons {
+      margin-top: 25px;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .hero-buttons button {
+      padding: 10px 20px;
+      border-radius: 999px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .explore {
+      background-color: black;
+      color: white;
+    }
+
+    .join-hero {
+      background-color: #eee;
+    }
+
+    
+    .trusted {
+      
+      display: flex;
+      justify-content: last baseline;
+      gap: 300px;
+      margin-top: 70px;
+      color: #aaa;
+      font-weight: bold;
+      text-align: center;
+      padding: 20px 0;
+      margin: 60px 40px;
+      box-sizing: border-box;
+    }
+    .trusted div {
+      font-size: 20px;
+      display: flex;
+      align-items: left;
+      gap: 16px;
+      line-height: 1;
+    }
+
+    /* About Section */
+    .about {
+      text-align: left;
+      margin: 5px 40px;
+    }
+
+    .about b {
+      font-size: 20px;
+    
+    }
+
+    .about p {
+      margin-top: 1px;
+      font-size: 20px;
+      color: #aaa;
+      font-weight: bold;
+    }
+
+    
+   footer {
+  margin-top: auto;
+  padding: 20px;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  color: #999; 
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <div class="square"></div>
+      <div class="circle"></div>
+      <div class="triangle"></div>
+    </div>
+    <div class="buttons">
+      <button class="join">Join Infipost</button>
+      <button class="dark-mode">Light/Dark Mode</button>
+    </div>
+  </header>
+
+
+  <section class="hero">
+    <h1>AI-powered Social Utility Platform</h1>
+    <p>Solve problems. Share ideas. Grow together.</p>
+    <div class="hero-buttons">
+      <button class="explore">Explore AI Tools</button>
+      <button class="join-hero">Join Infipost</button>
+    </div>
+  </section>
+
+  
+  <section class="trusted">
+    <div>■ TechCrunch</div>
+    <div>● Product Hunt</div>
+    <div>▲ Forbes</div>
+    <div>■ WIRED</div>
+  </section>
+
+  <section class="about">
+    <b>Infipost combines AI tools with<br>genuine human collaboration—<br>solving real-world challenges together.</b>
+    <p>Modern utility, community power,<br>with signature orange border.</p>
+  </section>
+
+  
+  <footer>
+    <div><i class="fas fa-robot"></i></div>
+    <div><i class="fas fa-map-marker-alt"></i></div>
+    <div><i class="fas fa-coins"></i></div>
+    <div><i class="fas fa-user"></i></div>
+  </footer>
+
+</body>
+</html>
